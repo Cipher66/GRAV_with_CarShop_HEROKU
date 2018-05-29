@@ -1,0 +1,26 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/var/www/html/grav/user/accounts/sergio.yaml',
+    'modified' => 1519756589,
+    'data' => [
+        'email' => 'schavezfe16dw@ikzubirimanteo.com',
+        'fullname' => 'Sergio Chavez',
+        'title' => 'Admin',
+        'state' => 'enabled',
+        'access' => [
+            'admin' => [
+                'super' => 'true',
+                'login' => 'true'
+            ],
+            'site' => [
+                'login' => 'true'
+            ]
+        ],
+        'hashed_password' => '$2y$10$3JxNEx9iTMYdpf1ZA.CHH.mDdE8L5Ao38exFhpqCUL6K/KKM5m15m',
+        'authorized' => true,
+        'twofa_secret' => 'X5QU2WOVSV7C3RN6XK7X2RKL3V3GSRMQ',
+        'language' => 'en',
+        'twofa_enabled' => false
+    ]
+];
