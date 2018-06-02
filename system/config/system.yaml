@@ -25,7 +25,7 @@ home:
   hide_in_urls: false                            # Hide the home route in URLs
 
 pages:
-  theme: quark                                   # Default theme (defaults to "quark" theme)
+  theme: car-shop                                   # Default theme (defaults to "quark" theme)
   order:
     by: default                                  # Order pages by "default", "alpha" or "date"
     dir: asc                                     # Default ordering direction, "asc" or "desc"

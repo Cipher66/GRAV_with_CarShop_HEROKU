@@ -42,28 +42,28 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
     ";
         // line 29
         $this->displayBlock('header', $context, $blocks);
-        // line 58
+        // line 72
         echo "
     ";
-        // line 59
+        // line 73
         $this->displayBlock('body', $context, $blocks);
-        // line 136
+        // line 150
         echo "
     ";
-        // line 137
+        // line 151
         $this->displayBlock('footer', $context, $blocks);
-        // line 174
+        // line 188
         echo "
     ";
-        // line 175
+        // line 189
         $this->displayBlock('bottom', $context, $blocks);
-        // line 178
+        // line 192
         echo "
     </body>
     ";
-        // line 180
+        // line 194
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 185
+        // line 199
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -133,6 +133,15 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
             }
         }
         /*******************************************************************************/
+
+        function myFunction() {
+            let x = document.getElementById(\"myTopnav\");
+            if (x.className === \"topnav\") {
+                x.className += \" responsive\";
+            } else {
+                x.className = \"topnav\";
+            }
+        }
 
         /*******************************************************************************/
 
@@ -287,44 +296,53 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                 <a href=\"javascript:void(0);\" class=\"icon\" onclick=\"collaps()\">
                     <i class=\"fa fa-bars\"></i>
                 </a>
-                    ";
-        // line 38
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 38)->display($context);
-        // line 39
-        echo "                <div class=\"searcher\">
+                    
+                <div class=\"searcher\">
                     <form name=\"searchForm\" class=\"form-inline\" action=\"\">
                         <input class=\"form-control mr-sm-2 fields\" id=\"field\" type=\"text\" placeholder=\"Search\">
                         <button class=\"btn btn-success\" id=\"buscar\" type=\"submit\">Search</button>
                     </form>
                 </div>
-            </nav> -->
-            <div class=\"topnav\">
-                <a class=\"active\" href=\"#home\">Home</a>
-                ";
-        // line 48
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 48)->display($context);
-        // line 49
+
+                                ";
+        // line 47
         echo "                <div class=\"search-container\">
                     <form action=\"/action_page.php\">
                         <input type=\"text\" placeholder=\"Search..\" name=\"search\">
                         <button type=\"submit\">Submit</button>
                     </form>
                 </div>
+
+            </nav> -->
+            <div class=\"topnav\" id=\"myTopnav\">
+                <a href=\"#home\" class=\"active\">Home</a>
+                <a href=\"#news\">News</a>
+                <a href=\"#contact\">Contact</a>
+                <a href=\"#about\">About</a>
+                <div class=\"searcher\">
+                    <form name=\"searchForm\" class=\"form-inline\" action=\"\">
+                        <input class=\"form-control mr-sm-2 fields\" id=\"field\" type=\"text\" placeholder=\"Search\">
+                        <button class=\"btn btn-success\" id=\"buscar\" type=\"submit\">Search</button>
+                    </form>
+                </div>
+                <a href=\"javascript:void(0);\" class=\"icon\" onclick=\"myFunction()\">
+                    <i class=\"fa fa-bars\"></i>
+                </a>
             </div>
         </header>
     ";
     }
 
-    // line 59
+    // line 73
     public function block_body($context, array $blocks = array())
     {
-        // line 60
+        // line 74
         echo "        <button id=\"myBtn\" onclick=\"scrolltoTop()\" title=\"Go to top\">Top</button>
 
         <div class=\"slideshow-container\">
             <div class=\"mySlides\">
                 <img src=\"";
-        // line 64
+        // line 78
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/MB_V250d.jpg");
         echo "\" style=\"width:100%\">
                 <div class=\"text\">Mercedes-Benz V250d AMG Line</div>
@@ -332,7 +350,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
 
             <div class=\"mySlides\">
                 <img src=\"";
-        // line 69
+        // line 83
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/HondaCEV.jpg");
         echo "\" style=\"width:100%\">
                 <div class=\"text\">Honda Clarity EV</div>
@@ -340,7 +358,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
 
             <div class=\"mySlides\">
                 <img src=\"";
-        // line 74
+        // line 88
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/Infiniti_PB_S.jpg");
         echo "\" style=\"width:100%\">
                 <div class=\"text\">Infiniti Project Black S</div>
@@ -401,26 +419,28 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
         <section id=\"body\">
             <div class=\"wrapper padding\">
                 ";
-        // line 132
+        // line 146
         $this->displayBlock('content', $context, $blocks);
-        // line 133
+        // line 147
         echo "            </div>
         </section>
     ";
     }
 
-    // line 132
+    // line 146
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 137
+    // line 151
     public function block_footer($context, array $blocks = array())
     {
-        // line 138
+        // line 152
         echo "        <footer id=\"footer\">
-            <div class=\"mw6-m mw100-ns mw100-l info roboto\"> ";
-        // line 140
+            <div class=\" mw6-m mw100-ns mw100-l info roboto\"> ";
+        // line 153
+        echo " ";
+        // line 154
         echo "                <div id=\"infoEx\">Información sobre ti:</div>
                 <div id=\"info\"></div>
                 <div id=\"tPantalla\"></div>
@@ -431,7 +451,9 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                 <div id=\"host\"></div>
             </div>
             <div class=\"mw6-m mw100-ns mw100-l contact roboto\"> ";
-        // line 150
+        // line 163
+        echo " ";
+        // line 164
         echo "                <p class=\"underline\">Contacto:</p>
                 <form action=\"#\" name=\"cnctForm\" id=\"cForm\" onsubmit=\"vldcnForm()\" method=\"POST\">
                     <table>
@@ -444,45 +466,44 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                     <input type=\"submit\" class=\"btn\" value=\"Enviar\">
                 </form>
             </div>
-            <div class=\"tc sn\"> ";
-        // line 163
-        echo "                <p id=\"infoEx\">Redes sociales:</p>
+            <div class=\"tc sn\">
+                <p id=\"infoEx\">Redes sociales:</p>
                 <a href=\"#\" class=\"fa fa-facebook  rrss\"></a>
                 <a href=\"#\" class=\"fa fa-twitter   rrss\"></a>
                 <a href=\"#\" class=\"fa fa-youtube   rrss\"></a>
                 <a href=\"#\" class=\"fa fa-instagram rrss\"></a>
             </div>
             <div class=\"fl w-100 pa2 tc copyright\"> ";
-        // line 170
+        // line 184
         echo "                Copyright 2018 - Sergio Chávez - Theme built for educational purposes
             </div>
         </footer>
     ";
     }
 
-    // line 175
+    // line 189
     public function block_bottom($context, array $blocks = array())
     {
-        // line 176
+        // line 190
         echo "        ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(0 => "bottom"), "method");
         echo "
     ";
     }
 
-    // line 180
+    // line 194
     public function block_javascripts($context, array $blocks = array())
     {
-        // line 181
+        // line 195
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "jquery", 1 => 100), "method");
-        // line 182
+        // line 196
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js", 1 => 99), "method");
-        // line 183
+        // line 197
         echo "        ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js", 1 => 98), "method");
-        // line 184
+        // line 198
         echo "    ";
     }
 
@@ -498,7 +519,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
 
     public function getDebugInfo()
     {
-        return array (  486 => 184,  483 => 183,  480 => 182,  477 => 181,  474 => 180,  467 => 176,  464 => 175,  457 => 170,  449 => 163,  435 => 150,  424 => 140,  421 => 138,  418 => 137,  413 => 132,  407 => 133,  405 => 132,  344 => 74,  336 => 69,  328 => 64,  322 => 60,  319 => 59,  307 => 49,  305 => 48,  294 => 39,  292 => 38,  282 => 30,  279 => 29,  275 => 22,  272 => 21,  269 => 20,  266 => 19,  263 => 18,  260 => 17,  252 => 23,  250 => 17,  244 => 14,  240 => 13,  237 => 12,  235 => 11,  224 => 7,  221 => 6,  218 => 5,  67 => 185,  65 => 180,  61 => 178,  59 => 175,  56 => 174,  54 => 137,  51 => 136,  49 => 59,  46 => 58,  44 => 29,  39 => 26,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
+        return array (  507 => 198,  504 => 197,  501 => 196,  498 => 195,  495 => 194,  488 => 190,  485 => 189,  478 => 184,  457 => 164,  455 => 163,  444 => 154,  442 => 153,  439 => 152,  436 => 151,  431 => 146,  425 => 147,  423 => 146,  362 => 88,  354 => 83,  346 => 78,  340 => 74,  337 => 73,  309 => 47,  291 => 30,  288 => 29,  284 => 22,  281 => 21,  278 => 20,  275 => 19,  272 => 18,  269 => 17,  261 => 23,  259 => 17,  253 => 14,  249 => 13,  246 => 12,  244 => 11,  233 => 7,  230 => 6,  227 => 5,  67 => 199,  65 => 194,  61 => 192,  59 => 189,  56 => 188,  54 => 151,  51 => 150,  49 => 73,  46 => 72,  44 => 29,  39 => 26,  37 => 5,  32 => 3,  29 => 2,  27 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -548,23 +569,37 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                 <a href=\"javascript:void(0);\" class=\"icon\" onclick=\"collaps()\">
                     <i class=\"fa fa-bars\"></i>
                 </a>
-                    {% include 'partials/navigation.html.twig' %}
+                    
                 <div class=\"searcher\">
                     <form name=\"searchForm\" class=\"form-inline\" action=\"\">
                         <input class=\"form-control mr-sm-2 fields\" id=\"field\" type=\"text\" placeholder=\"Search\">
                         <button class=\"btn btn-success\" id=\"buscar\" type=\"submit\">Search</button>
                     </form>
                 </div>
-            </nav> -->
-            <div class=\"topnav\">
-                <a class=\"active\" href=\"#home\">Home</a>
-                {% include 'partials/navigation.html.twig' %}
+
+                                {#{% include 'partials/navigation.html.twig' %}#}
                 <div class=\"search-container\">
                     <form action=\"/action_page.php\">
                         <input type=\"text\" placeholder=\"Search..\" name=\"search\">
                         <button type=\"submit\">Submit</button>
                     </form>
                 </div>
+
+            </nav> -->
+            <div class=\"topnav\" id=\"myTopnav\">
+                <a href=\"#home\" class=\"active\">Home</a>
+                <a href=\"#news\">News</a>
+                <a href=\"#contact\">Contact</a>
+                <a href=\"#about\">About</a>
+                <div class=\"searcher\">
+                    <form name=\"searchForm\" class=\"form-inline\" action=\"\">
+                        <input class=\"form-control mr-sm-2 fields\" id=\"field\" type=\"text\" placeholder=\"Search\">
+                        <button class=\"btn btn-success\" id=\"buscar\" type=\"submit\">Search</button>
+                    </form>
+                </div>
+                <a href=\"javascript:void(0);\" class=\"icon\" onclick=\"myFunction()\">
+                    <i class=\"fa fa-bars\"></i>
+                </a>
             </div>
         </header>
     {% endblock %}
@@ -649,7 +684,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
 
     {% block footer %}
         <footer id=\"footer\">
-            <div class=\"mw6-m mw100-ns mw100-l info roboto\"> {# fl w50 pa2 ma3 info roboto #}
+            <div class=\" mw6-m mw100-ns mw100-l info roboto\"> {# fl w50 pa2 ma3 info roboto #} {# #}
                 <div id=\"infoEx\">Información sobre ti:</div>
                 <div id=\"info\"></div>
                 <div id=\"tPantalla\"></div>
@@ -659,7 +694,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                 <div id=\"cookies\"></div>
                 <div id=\"host\"></div>
             </div>
-            <div class=\"mw6-m mw100-ns mw100-l contact roboto\"> {# fl w50 pa2 ma3 contact roboto #}
+            <div class=\"mw6-m mw100-ns mw100-l contact roboto\"> {# fl w50 pa2 ma3 contact roboto #} {#  #}
                 <p class=\"underline\">Contacto:</p>
                 <form action=\"#\" name=\"cnctForm\" id=\"cForm\" onsubmit=\"vldcnForm()\" method=\"POST\">
                     <table>
@@ -672,7 +707,7 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
                     <input type=\"submit\" class=\"btn\" value=\"Enviar\">
                 </form>
             </div>
-            <div class=\"tc sn\"> {# class=\"tc sn\" #}
+            <div class=\"tc sn\">
                 <p id=\"infoEx\">Redes sociales:</p>
                 <a href=\"#\" class=\"fa fa-facebook  rrss\"></a>
                 <a href=\"#\" class=\"fa fa-twitter   rrss\"></a>
@@ -762,6 +797,15 @@ class __TwigTemplate_98efbad1b9d95f54143d3a7c373f5d9f56a93083ce5a47af98e71b2de55
             }
         }
         /*******************************************************************************/
+
+        function myFunction() {
+            let x = document.getElementById(\"myTopnav\");
+            if (x.className === \"topnav\") {
+                x.className += \" responsive\";
+            } else {
+                x.className = \"topnav\";
+            }
+        }
 
         /*******************************************************************************/
 
