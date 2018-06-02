@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe070616-faf6-41a5-95de-884e3493bfd6" name="Default" comment="" />
+    <list default="true" id="fe070616-faf6-41a5-95de-884e3493bfd6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/user/themes/car-shop" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +160,7 @@
       <updated>1527622381515</updated>
       <workItem from="1527622385275" duration="147000" />
       <workItem from="1527623698038" duration="696000" />
-      <workItem from="1527978615155" duration="786000" />
+      <workItem from="1527978615155" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="&gt;Changed main theme.">
       <created>1527978839550</created>
@@ -171,7 +173,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1629000" />
+    <option name="totallyTimeSpent" value="1871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
