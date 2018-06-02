@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe070616-faf6-41a5-95de-884e3493bfd6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/config/system.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user/config/system.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/themes/car-shop" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,36 +16,7 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="system.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="system.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/config/system.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/default.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +27,7 @@
         <option value="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/system/config/system.yaml" />
         <option value="$PROJECT_DIR$/user/config/system.yaml" />
+        <option value="$PROJECT_DIR$/user/themes/car-shop/car-shop.yaml" />
       </list>
     </option>
   </component>
@@ -155,30 +126,6 @@
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="GRAV_with_CarShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GRAV_with_CarShop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="car-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="GRAV_with_CarShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GRAV_with_CarShop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="car-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="GRAV_with_CarShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GRAV_with_CarShop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="car-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -216,7 +163,7 @@
       <updated>1527622381515</updated>
       <workItem from="1527622385275" duration="147000" />
       <workItem from="1527623698038" duration="696000" />
-      <workItem from="1527978615155" duration="1931000" />
+      <workItem from="1527978615155" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="&gt;Changed main theme.">
       <created>1527978839550</created>
@@ -232,15 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527980493461</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&gt;changed more things">
+      <created>1527980642128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527980642128</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2774000" />
+    <option name="totallyTimeSpent" value="3699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986508" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -272,7 +225,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&gt;Changed main theme." />
     <MESSAGE value="&gt;changed things" />
-    <option name="LAST_COMMIT_MESSAGE" value="&gt;changed things" />
+    <MESSAGE value="&gt;changed more things" />
+    <MESSAGE value="&gt;changed to false." />
+    <option name="LAST_COMMIT_MESSAGE" value="&gt;changed to false." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/default.md">
@@ -335,6 +290,16 @@
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/car-shop.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/car-shop.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
       <provider selected="true" editor-type-id="text-editor">
