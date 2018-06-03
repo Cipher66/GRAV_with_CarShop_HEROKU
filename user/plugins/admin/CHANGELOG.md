@@ -1,3 +1,58 @@
+# v1.8.3
+## 05/31/2018
+
+1. [](#new)
+    * Added support for selectize plugins as options in the selectize field
+1. [](#bugfix)
+    * Fixed Undefined property: `stdClass::$image` in v1.8.2 [#1454](https://github.com/getgrav/grav-plugin-admin/issues/1454)
+    * Pass media order when calling `task:listmedia`
+
+# v1.8.2
+## 05/24/2018
+
+1. [](#new)
+    * Added custom object support for filepicker field
+    * Don't allow saving of a user with no local account file
+    * Controls for `list` field were not in sync between top and bottom
+1. [](#improved)
+    * More subtle `fieldset` styling
+1. [](#bugfix)
+    * Check if `$object->blueprints()` exists in `onAdminAfterSave`
+    * When creating first user, check `admin.login` not `site.login`
+    * Fix admin login redirects for multisite setups
+    * Fixed issue with filepicker field where images wouldn't properly merge with the current value if in a page header 
+    * Fixed media delete for streams
+
+# v1.8.1
+## 05/15/2018
+
+1. [](#improved)
+    * use SHA1 hashing of IP addressed to support GDPR rules [#1436](https://github.com/getgrav/grav-plugin-admin/pull/1436)
+1. [](#bugfix)
+    * Fixed 2FA form showing up even if user has not turned on the feature [#1442](https://github.com/getgrav/grav-plugin-admin/issues/1442)
+    * Fixed previews of images in Pagemedia field not properly URI encoded [#1438](https://github.com/getgrav/grav-plugin-admin/issues/1438)
+
+# v1.8.0
+## 05/11/2018
+
+1. [](#new)
+    * Moved 2FA authentication to login plugin
+    * Admin login now uses login plugin events
+    * Added new decoupled `pagemedia` field that is no longer tied to just pages
+    * Updated plugin dependencies (Grav >= 1.4.4, Form >=2.14.0, Login >=2.7.0, Email >=2.7.0)
+1. [](#improved)
+    * Added support for JavaScript `bottom` block [#1425](https://github.com/getgrav/grav-plugin-admin/pull/1425)
+    * Added better typography styling for blockquote and markdown in `display` field
+    * Vendor updates   
+1. [](#bugfix)
+    * Added missing MarkdownExtra strings [#1385](https://github.com/getgrav/grav-plugin-admin/pull/1385)
+    * Updated `blueprints.yaml` with missing `step` attribute [#1415](https://github.com/getgrav/grav-plugin-admin/pull/1415)
+    * Fixed preview target setting [#1430](https://github.com/getgrav/grav-plugin-admin/pull/1430)
+    * Added new modular string [#1433](https://github.com/getgrav/grav-plugin-admin/pull/1433)
+    * Fixed Firefox issue with the Regenerate button for 2FA. Forcing the page to reload
+    * Fixed jumpiness behavior for Regenerate button when on active state.
+    * Prevent the prompt for unsaved state when Regenerating a 2FA code and trying to reload/leave the page.
+
 # v1.7.4
 ## 04/02/2018
 
@@ -31,7 +86,6 @@
     * Fix redirect bug when changing admin route to `admin-*` 
     * Changed Twig `|count` to `|length` filter [#1391](https://github.com/getgrav/grav-plugin-admin/issues/1391)   
     * Fix for page preview when `HTTP_REFERRER` is not set [grav#1930](https://github.com/getgrav/grav/issues/1930)
-
 
 # v1.7.1
 ## 03/11/2018

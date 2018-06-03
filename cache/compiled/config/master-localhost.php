@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1527979082,
-    'checksum' => 'b58b103329e0ed93085654f337d2ae80',
+    'timestamp' => 1528048577,
+    'checksum' => '4665887c85137dcb0cf4434b491e3ec1',
     'files' => [
         'user/config' => [
             'media' => [
@@ -33,19 +33,19 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1523991506
+                'modified' => 1528048174
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1523991506
+                'modified' => 1528048174
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1523991506
+                'modified' => 1528048174
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1527977849
+                'modified' => 1528048179
             ]
         ],
         'user/plugins' => [
@@ -63,7 +63,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1523991649
+                'modified' => 1528048176
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -71,7 +71,7 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1523991632
+                'modified' => 1528048177
             ],
             'plugins/user-information-plugin' => [
                 'file' => 'user/plugins/user-information-plugin/user-information-plugin.yaml',
@@ -83,7 +83,7 @@ return [
             ],
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1523555796
+                'modified' => 1528048175
             ]
         ]
     ],
