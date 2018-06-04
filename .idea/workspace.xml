@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
@@ -62,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+              <caret line="20" column="128" selection-start-line="20" selection-start-column="128" selection-end-line="20" selection-end-column="128" />
             </state>
           </provider>
         </entry>
@@ -236,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528128674669</updated>
-      <workItem from="1528128678786" duration="8655000" />
+      <workItem from="1528128678786" duration="8865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8655000" />
+    <option name="totallyTimeSpent" value="8865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -292,7 +291,7 @@
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+          <caret line="20" column="128" selection-start-line="20" selection-start-column="128" selection-end-line="20" selection-end-column="128" />
         </state>
       </provider>
     </entry>

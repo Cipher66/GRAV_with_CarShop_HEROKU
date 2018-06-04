@@ -17,8 +17,8 @@
             {% block stylesheets %}
                 {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
                 {% do assets.addCss('https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css', 99) %}
-                {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 98) %}
-                {% do assets.addCss('theme://css/custom.css', 97) %}
+                {% do assets.addCss('theme://css/custom.css', 98) %}
+                {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 97) %}
             {% endblock %}
             {{ assets.css() }}
 
@@ -141,7 +141,7 @@
 
     {% block footer %}
         <footer id="footer">
-            <div class=" mw50-m mw100-ns mw100-l info roboto">
+            <div class=" mw50-m mw100-ns mw100-l w50 info roboto">
                 <div id="infoEx">Información sobre ti:</div>
                 <div id="info"></div>
                 <div id="tPantalla"></div>
@@ -151,7 +151,7 @@
                 <div id="cookies"></div>
                 <div id="host"></div>
             </div>
-            <div class="mw50-m mw100-ns mw100-l contact roboto">
+            <div class="mw50-m mw100-ns mw100-l w50 contact roboto">
                 <p class="underline">Contacto:</p>
                 <form action="#" name="cnctForm" id="cForm" onsubmit="vldcnForm()" method="POST">
                     <table>
