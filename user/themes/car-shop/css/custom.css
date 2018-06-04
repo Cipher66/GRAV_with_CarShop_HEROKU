@@ -35,18 +35,22 @@ footer{
 .bg-col-dark {
     background-color: #303139;
 }
+
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 .container {
     background: #303139;
 }
+
 .menu {
     background: #303139;
 }
+
 .logo {
     line-height: 2rem;
 }

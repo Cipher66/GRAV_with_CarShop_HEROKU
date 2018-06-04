@@ -17,8 +17,8 @@
             {% block stylesheets %}
                 {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
                 {% do assets.addCss('https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css', 99) %}
-                {% do assets.addCss('theme://css/custom.css', 98) %}
-                {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 97) %}
+                {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 98) %}
+                {% do assets.addCss('theme://css/custom.css', 97) %}
             {% endblock %}
             {{ assets.css() }}
 
@@ -28,7 +28,7 @@
 
     {% block header %}
         <header>
-            <div class="container w-100 relative"> {# vh100 / vh-25 #}
+            <div class="container w-100 vh-25 relative">
                 <div class="menu fl w-100 fixed pv4 z-999">
                     <div class="logo fl w-80 w-30-l tl h2">
                         <div class="ml4 ml5-l tracked">
@@ -45,27 +45,12 @@
                             <div class="fr-l ml4 mt4 pv2 pv0-l v-mid">
                                 {% include 'partials/navigation.html.twig' %}
                             </div>
-                            {#<div class="fr-l ml4 mt2 pv2 pv0-l">
-                                <a href="#" class="link dim near-white">about</a>
-                            </div>
-                            <div class="fr-l ml4 mt2 pv2 pv0-l">
-                                <a href="#" class="link strike dim near-white">projects</a>
-                            </div>#}
                         </div>
                     </div>
                 </div>
             </div>
         </header>
     {% endblock %}
-
-    {#
-                <div class="searcher">
-                    <form name="searchForm" class="form-inline" action="">
-                        <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
-                        <button class="btn btn-success" id="buscar" type="submit">Search</button>
-                    </form>
-                </div>
-    #}
 
     {% block body %}
         <button id="myBtn" onclick="scrolltoTop()" title="Go to top">Top</button>
@@ -97,6 +82,8 @@
         </div>
 
         <div class="tc">
+            <b>Buscador:</b>
+            <br>
             <form name="searchForm" class="form-inline" action="">
                 <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
                 <button class="btn btn-success" id="buscar" type="submit">Search</button>
@@ -154,7 +141,7 @@
 
     {% block footer %}
         <footer id="footer">
-            <div class=" mw50-m mw100-ns mw100-l info roboto"> {# fl w50 pa2 ma3 info roboto #} {# mw6 #}
+            <div class=" mw50-m mw100-ns mw100-l info roboto">
                 <div id="infoEx">Información sobre ti:</div>
                 <div id="info"></div>
                 <div id="tPantalla"></div>
@@ -164,7 +151,7 @@
                 <div id="cookies"></div>
                 <div id="host"></div>
             </div>
-            <div class="mw50-m mw100-ns mw100-l contact roboto"> {# fl w50 pa2 ma3 contact roboto #} {# mw6 #}
+            <div class="mw50-m mw100-ns mw100-l contact roboto">
                 <p class="underline">Contacto:</p>
                 <form action="#" name="cnctForm" id="cForm" onsubmit="vldcnForm()" method="POST">
                     <table>
