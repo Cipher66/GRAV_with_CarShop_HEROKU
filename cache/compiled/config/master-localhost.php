@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1528048577,
-    'checksum' => '4665887c85137dcb0cf4434b491e3ec1',
+    'timestamp' => 1528094992,
+    'checksum' => 'aacd1d2b2f466ffdcd12b793e9e78e15',
     'files' => [
         'user/config' => [
             'media' => [
@@ -72,10 +72,6 @@ return [
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1528048177
-            ],
-            'plugins/user-information-plugin' => [
-                'file' => 'user/plugins/user-information-plugin/user-information-plugin.yaml',
-                'modified' => 1523636654
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
@@ -203,10 +199,6 @@ return [
                     ]
                 ]
             ],
-            'user-information-plugin' => [
-                'enabled' => false,
-                'text_var' => 'Custom Text added by the **User Information Plugin** plugin (disable plugin to remove)'
-            ],
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
@@ -269,6 +261,10 @@ return [
                         'visitors' => 20
                     ]
                 ]
+            ],
+            'user-information-plugin' => [
+                'enabled' => false,
+                'text_var' => 'Custom Text added by the **User Information Plugin** plugin (disable plugin to remove)'
             ]
         ],
         'media' => [

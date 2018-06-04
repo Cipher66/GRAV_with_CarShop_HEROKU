@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1528048577,
-    'checksum' => '400389d98282dd00221e46e3645d5552',
+    'timestamp' => 1528094992,
+    'checksum' => '93b614799533b110f0c97cf882c89333',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -46,10 +46,6 @@ return [
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
                 'modified' => 1528048177
-            ],
-            'plugins/user-information-plugin' => [
-                'file' => 'user/plugins/user-information-plugin/blueprints.yaml',
-                'modified' => 1523636654
             ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
@@ -2738,34 +2734,6 @@ return [
                 'name' => 'plugins.login.tabs',
                 'validation' => 'loose'
             ],
-            'plugins.user-information-plugin' => [
-                'type' => '_root',
-                'form_field' => false,
-                'form' => [
-                    'validation' => 'strict'
-                ]
-            ],
-            'plugins.user-information-plugin.enabled' => [
-                'type' => 'toggle',
-                'label' => 'Plugin status',
-                'highlight' => 1,
-                'default' => 0,
-                'options' => [
-                    1 => 'Enabled',
-                    0 => 'Disabled'
-                ],
-                'validate' => [
-                    'type' => 'bool'
-                ],
-                'name' => 'plugins.user-information-plugin.enabled',
-                'validation' => 'strict'
-            ],
-            'plugins.user-information-plugin.text_var' => [
-                'type' => 'text',
-                'label' => 'Text Variable',
-                'name' => 'plugins.user-information-plugin.text_var',
-                'validation' => 'strict'
-            ],
             'plugins.problems' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3762,10 +3730,6 @@ return [
                     'max_pw_resets_interval' => 'plugins.login.max_pw_resets_interval',
                     'max_login_count' => 'plugins.login.max_login_count',
                     'max_login_interval' => 'plugins.login.max_login_interval'
-                ],
-                'user-information-plugin' => [
-                    'enabled' => 'plugins.user-information-plugin.enabled',
-                    'text_var' => 'plugins.user-information-plugin.text_var'
                 ],
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',
