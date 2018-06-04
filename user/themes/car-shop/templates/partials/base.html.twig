@@ -28,47 +28,47 @@
 
     {% block header %}
         <header>
-            <!-- <nav class="pa3 pa4-ns navigator" id="navb">
-                <a class="link dim b f6 f5-ns dib mr3" href="#" title="Home">Car Shop</a>
-                <a class="link dim b f6 f5-ns dib mr3"></a>
-
-                <a href="javascript:void(0);" class="icon" onclick="collaps()">
-                    <i class="fa fa-bars"></i>
-                </a>
-                    
-                <div class="searcher">
-                    <form name="searchForm" class="form-inline" action="">
-                        <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
-                        <button class="btn btn-success" id="buscar" type="submit">Search</button>
-                    </form>
+            <div class="container vh-100 w-100 relative">
+                <div class="menu fl w-100 fixed pv4 z-999">
+                    <div class="logo fl w-80 w-30-l tl h2">
+                        <div class="ml4 ml5-l tracked">
+                            <a href="#" class="f5 col-dark h2 ph2 dt bg-near-white no-underline">Neutrino Style</a>
+                        </div>
+                    </div>
+                    <div id="menu-selector" class="menubutton w-20 dn-l tr h2 fr f3 white">
+                        <div class="mr4 mr5-l tracked-mega ttu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="menubar dn di-l w-70-l fl lh-copy f7 ttu tracked-mega fixed inline-l right-0 tr mt5 mt0-l pb2 pb0-l bg-col-dark">
+                        <div class="mr4 mr5-l">
+                            <div class="fr-l ml4 mt2 pv2 pv0-l">
+                                <a href="#" class="link dim near-white">reach me</a>
+                            </div>
+                            <div class="fr-l ml4 mt2 pv2 pv0-l">
+                                <a href="#" class="link dim near-white">blog</a>
+                            </div>
+                            <div class="fr-l ml4 mt2 pv2 pv0-l">
+                                <a href="#" class="link dim near-white">about</a>
+                            </div>
+                            <div class="fr-l ml4 mt2 pv2 pv0-l">
+                                <a href="#" class="link strike dim near-white">projects</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                                {#{% include 'partials/navigation.html.twig' %}#}
-                <div class="search-container">
-                    <form action="/action_page.php">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit">Submit</button>
-                    </form>
-                </div>
-
-            </nav> -->
-            <div class="topnav" id="myTopnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <div class="searcher">
-                    <form name="searchForm" class="form-inline" action="">
-                        <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
-                        <button class="btn btn-success" id="buscar" type="submit">Search</button>
-                    </form>
-                </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
             </div>
         </header>
     {% endblock %}
+
+    {#
+                <div class="searcher">
+                    <form name="searchForm" class="form-inline" action="">
+                        <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
+                        <button class="btn btn-success" id="buscar" type="submit">Search</button>
+                    </form>
+                </div>
+    #}
 
     {% block body %}
         <button id="myBtn" onclick="scrolltoTop()" title="Go to top">Top</button>
@@ -264,12 +264,20 @@
         }
         /*******************************************************************************/
 
-        function myFunction() {
-            let x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
+        var menuButton = document.getElementById("menu-selector");
+
+        var active = false;
+
+        menuButton.addEventListener("click", onMenuClick);
+
+        function onMenuClick() {
+            var menubar = document.getElementsByClassName("menubar");
+            if(!active) {
+                menubar[0].classList.remove("dn");
+                active = true;
             } else {
-                x.className = "topnav";
+                menubar[0].classList.add("dn");
+                active = false;
             }
         }
 
