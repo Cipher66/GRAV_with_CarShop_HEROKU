@@ -32,10 +32,7 @@
                 <div class="menu fl w-100 fixed pv4 z-999">
                     <div class="logo fl w-80 w-30-l tl h2">
                         <div class="ml4 ml5-l searcher">
-                            <form name="searchForm" class="form-inline" action="">
-                                <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
-                                <button class="btn btn-success" id="buscar" type="submit">Search</button>
-                            </form>
+
                         </div>
                         <div class="ml4 ml5-l tracked">
                             <a href="#" class="f5 col-dark h2 ph2 dt bg-near-white no-underline">Car Shop</a>
@@ -51,10 +48,13 @@
                             <div class="fr-l ml4 mt4 pv2 pv0-l v-mid">
                                 {% include 'partials/navigation.html.twig' %}
                             </div>
-                            {#<div class="fr-l ml4 mt2 pv2 pv0-l">
-                                <a href="#" class="link dim near-white">blog</a>
-                            </div>
                             <div class="fr-l ml4 mt2 pv2 pv0-l">
+                                <form name="searchForm" class="form-inline" action="">
+                                    <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
+                                    <button class="btn btn-success" id="buscar" type="submit">Search</button>
+                                </form>
+                            </div>
+                            {#<div class="fr-l ml4 mt2 pv2 pv0-l">
                                 <a href="#" class="link dim near-white">about</a>
                             </div>
                             <div class="fr-l ml4 mt2 pv2 pv0-l">
