@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="435">
+              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,8 +61,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="14" column="132" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
+            <state relative-caret-position="73">
+              <caret line="186" column="104" selection-start-line="186" selection-start-column="104" selection-end-line="186" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -235,12 +236,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528128674669</updated>
-      <workItem from="1528128678786" duration="9107000" />
+      <workItem from="1528128678786" duration="9295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9107000" />
+    <option name="totallyTimeSpent" value="9295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -274,6 +275,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/navigation.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -281,17 +289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="14" column="132" selection-start-line="14" selection-start-column="132" selection-end-line="14" selection-end-column="132" />
+        <state relative-caret-position="73">
+          <caret line="186" column="104" selection-start-line="186" selection-start-column="104" selection-end-line="186" selection-end-column="104" />
         </state>
       </provider>
     </entry>
