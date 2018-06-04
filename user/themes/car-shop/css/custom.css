@@ -149,6 +149,7 @@ li{
     margin: 20px 20px 20px 20px;
 }
 .searcher{
+    display: inline-block;
     margin-left: 50px;
 }
 
