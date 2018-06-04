@@ -32,15 +32,15 @@ footer{
     color: #303139;
 }
 
-/*.bg-col-dark {
+.bg-col-dark {
     background-color: #303139;
-}*/
-/*html, body {
+}
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-}*/
+}
 .container {
     background: #303139;
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="300">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -60,8 +61,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="163">
+              <caret line="152" column="102" selection-start-line="152" selection-start-column="102" selection-end-line="152" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -69,7 +70,9 @@
       <file leaf-file-name="navigation.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/navigation.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17" />
+            <state relative-caret-position="-2">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -228,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528128674669</updated>
-      <workItem from="1528128678786" duration="4329000" />
+      <workItem from="1528128678786" duration="4633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4329000" />
+    <option name="totallyTimeSpent" value="4633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -267,22 +270,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/navigation.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="-2">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/navigation.html.twig">
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17" />
+        <state relative-caret-position="300">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="163">
+          <caret line="152" column="102" selection-start-line="152" selection-start-column="102" selection-end-line="152" selection-end-column="102" />
         </state>
       </provider>
     </entry>
