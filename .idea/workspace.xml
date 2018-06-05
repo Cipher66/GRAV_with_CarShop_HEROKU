@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.home/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+            <state relative-caret-position="525">
+              <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -75,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="171" column="50" selection-start-line="171" selection-start-column="50" selection-end-line="171" selection-end-column="50" />
+            <state relative-caret-position="480">
+              <caret line="245" column="144" selection-start-line="245" selection-start-column="144" selection-end-line="245" selection-end-column="144" />
             </state>
           </provider>
         </entry>
@@ -109,8 +109,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/user/themes/car-shop/css/custom.css" />
-        <option value="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss" />
+        <option value="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" />
       </list>
     </option>
   </component>
@@ -272,12 +272,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528128674669</updated>
-      <workItem from="1528128678786" duration="14058000" />
+      <workItem from="1528128678786" duration="14105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14058000" />
+    <option name="totallyTimeSpent" value="14105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -332,17 +332,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="171" column="50" selection-start-line="171" selection-start-column="50" selection-end-line="171" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss">
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        <state relative-caret-position="480">
+          <caret line="245" column="144" selection-start-line="245" selection-start-column="144" selection-end-line="245" selection-end-column="144" />
         </state>
       </provider>
     </entry>

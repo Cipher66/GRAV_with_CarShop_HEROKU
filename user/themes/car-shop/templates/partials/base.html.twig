@@ -243,7 +243,7 @@
 
             let cEmail = document.getElementById("cform").elements("femail");
 
-            if(document.getElementById("cForm").elements["fname"].value === "" && document.getElementById("cForm").elements["femail"].value ==="" ){
+            if(document.getElementById("cForm").elements["fname"].value === "" || document.getElementById("cForm").elements["femail"].value === "" ){
                 alert("Te faltan elementos por completar");
                 event.preventDefault();
             }
