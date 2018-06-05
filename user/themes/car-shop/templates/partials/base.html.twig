@@ -17,7 +17,7 @@
                 {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
                 {% do assets.addCss('https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css', 99) %}
                 {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 98) %}
-                {% do assets.addCss('theme://css-compiled/custom.css', 97)
+                {% do assets.addCss('theme://css-compiled/custom.css', 97) %}
             {% endblock %}
             {{ assets.css() }}
 
@@ -55,6 +55,7 @@
         <button id="myBtn" onclick="scrolltoTop()" title="Go to top">Top</button>
 
         <div class="slideshow-container">
+
             <div class="mySlides">
                 <img src="{{ url('theme://images/MB_V250d.jpg') }}" style="width:100%">
                 <div class="text">Mercedes-Benz V250d AMG Line</div>
