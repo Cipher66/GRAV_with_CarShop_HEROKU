@@ -238,7 +238,8 @@ li {
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 2px 2px 2px 2px #FFFFFF; }
 
 .numbertext {
   color: #F2F2F2;

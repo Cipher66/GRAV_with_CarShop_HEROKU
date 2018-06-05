@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -60,8 +61,17 @@
       <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            <state relative-caret-position="418">
+              <caret line="258" column="40" selection-start-line="258" selection-start-column="40" selection-end-line="258" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -69,8 +79,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+            <state relative-caret-position="-435">
+              <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -89,6 +99,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sear</find>
+      <find>text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,6 +213,14 @@
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="car-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css-compiled" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="GRAV_with_CarShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GRAV_with_CarShop" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="car-shop" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -253,12 +272,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528128674669</updated>
-      <workItem from="1528128678786" duration="10487000" />
+      <workItem from="1528128678786" duration="10846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10487000" />
+    <option name="totallyTimeSpent" value="10846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
@@ -299,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -313,10 +325,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-435">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        <state relative-caret-position="418">
+          <caret line="258" column="40" selection-start-line="258" selection-start-column="40" selection-end-line="258" selection-end-column="40" />
         </state>
       </provider>
     </entry>
