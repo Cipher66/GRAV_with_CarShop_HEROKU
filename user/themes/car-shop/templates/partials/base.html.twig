@@ -86,7 +86,7 @@
             <br>
             <form name="searchForm" class="form-inline" action="">
                 <input class="form-control mr-sm-2 fields" id="field" type="text" placeholder="Search">
-                <button class="btn btn-success" id="buscar" type="submit">Search</button>
+                <button class="btn btn-success" id="buscar" type="submit">Buscar</button>
             </form>
         </div>
 
@@ -299,6 +299,7 @@
             }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
+            setTimeout(showDivs, 2000);
         }
 
         /*******************************************************************************/
