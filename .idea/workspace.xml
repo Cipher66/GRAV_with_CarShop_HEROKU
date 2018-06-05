@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="138d780a-4715-4142-b2df-a7328cfebb68" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.home/default.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/.sass-cache/cb0c94e5b4ff9d37b52cff6a3e173f31ecaf9917/custom.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/.sass-cache/cb0c94e5b4ff9d37b52cff6a3e173f31ecaf9917/custom.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/css-compiled/custom.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/scss/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/car-shop/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/antoligy/dom-string-iterators/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
