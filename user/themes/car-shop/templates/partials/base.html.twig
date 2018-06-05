@@ -274,27 +274,32 @@
 
         /*******************************************************************************/
 
-        let slideIndex = 0; {# let slideIndex = 1; #}
-        showDivs(); {# showDivs(slideIndex); #}
+        let slideIndex = 1; {# let slideIndex = 1; #}
+        showDivs(slideIndex); {# showDivs(slideIndex); #}
 
-        function showDivs(){
+        function plusSlides(n){
+            showDivs(slideIndex += n);
+        }
+        function currentSlide(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n){
             let i;
             let slides = document.getElementsByClassName("mySlides");
             let dots = document.getElementsByClassName("dot");
-            for(i = 0; i < slides.length; i++){
-                slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length){
+            if (n > slides.length){
                 slideIndex = 1;
+            }
+            for (i = 0; i < slides.length; i++){
+                slides[i].style.display = "none";
             }
             for (i = 0; i < dots.length; i++){
                 dots[i].className = dots[i].className.replace(" active", "");
             }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-            setTimeout(showDivs(), 2000);
-        }
+        } 
 
         {#
                     function plusSlides(n){
