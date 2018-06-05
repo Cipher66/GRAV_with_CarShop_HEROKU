@@ -17,7 +17,8 @@
                 {% do assets.addCss('https://unpkg.com/purecss@1.0.0/build/pure-min.css', 100) %}
                 {% do assets.addCss('https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css', 99) %}
                 {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', 98) %}
-                {% do assets.addCss('theme://css/custom.css', 97) %}
+                {% do assets.addCss('theme://css-compiled/custom.css', 97) %}
+                {# {% do assets.addCss('theme://css/custom.css', 97) %} #}
             {% endblock %}
             {{ assets.css() }}
 
@@ -31,7 +32,7 @@
                 <div class="menu fl w-100 fixed pv4 z-999">
                     <div class="logo fl w-80 w-30-l tl h2">
                         <div class="ml4 ml5-l tracked">
-                            <a href="#" class="f5 col-dark h2 ph2 dt bg-near-white no-underline">Car Shop</a>
+                            <a href="home" class="f5 col-dark h2 ph2 dt bg-near-white no-underline">Car Shop</a>
                         </div>
                     </div>
                     <div id="menu-selector" class="menubutton w-20 dn-l tr h2 fr f3 white">
