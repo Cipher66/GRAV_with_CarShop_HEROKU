@@ -141,7 +141,7 @@
 
     {% block footer %}
         <footer id="footer">
-            <div class=" mw50-m mw100-ns mw100-l w-50 info roboto">
+            <div class=" mw50-m mw100-ns mw100-l w-70 info roboto">
                 <div id="infoEx">Información sobre ti:</div>
                 <div id="info"></div>
                 <div id="tPantalla"></div>
@@ -185,7 +185,6 @@
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
         {% do assets.addJs('https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', 99) %}
-    {#{% do assets.addJs('https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js', 98) %}#}
     {% endblock %}
     {{ assets.js() }}
 
@@ -274,8 +273,8 @@
 
         /*******************************************************************************/
 
-        let slideIndex = 1; {# let slideIndex = 1; #}
-        showDivs(slideIndex); {# showDivs(slideIndex); #}
+        let slideIndex = 1;
+        showDivs(slideIndex);
 
         function plusSlides(n){
             showDivs(slideIndex += n);
@@ -299,33 +298,7 @@
             }
             slides[slideIndex-1].style.display = "block";
             dots[slideIndex-1].className += " active";
-        } 
-
-        {#
-                    function plusSlides(n){
-            showDivs(slideIndex += n);
         }
-        function currentSlide(n) {
-            showDivs(slideIndex = n);
-        }
-
-        function showDivs(n){
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length){
-                slideIndex = 1;
-            }
-            for (i = 0; i < slides.length; i++){
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++){
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";
-            dots[slideIndex-1].className += " active";
-        }
-        #}
 
         /*******************************************************************************/
 
